@@ -122,3 +122,101 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* siteWide */
+body {
+  background-color: #181818;
+}
+
+input {
+  padding: 0;
+  border: 0;
+}
+
+buttton {
+  padding: 0;
+  border: 0;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  height: 56px;
+  width: auto;
+}
+
+header i {
+  font-size: 24px;
+  color: white;
+}
+/* header left column */
+
+header .fa-youtube {
+  color: red;
+}
+
+header #myChannel {
+  height: 36px;
+}
+
+header #L-col-header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 185px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+/*header Center column */
+
+#C-col-header {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  height: 32px;
+}
+
+#C-col-header input {
+  width: 500px;
+  height: 32px;
+  background-color: transparent;
+}
+#C-col-header textarea {
+  color: red;
+}
+#C-col-header button {
+  width: 75px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+
+  background-color: #3d3d3d;
+}
+
+#C-col-header #search {
+  background-color: #181818;
+  width: 100%;
+  border: 1px solid #3d3d3d;
+}
+#C-col-header #search i {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+#C-col-header .microphone {
+  margin-left: 10px;
+}
+
+/* header right column */
+
+#R-col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 100%;
+}
+
+#R-col-header .fa-google-plus {
+  font-size: 40px;
+}
