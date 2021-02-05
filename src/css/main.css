@@ -252,6 +252,7 @@ header #L-col-header {
 
 #L-col-video-info {
   background-color: orange;
+  width: 150px;
 }
 #L-col-video-info h1 {
   font-size: 25px;
@@ -260,6 +261,7 @@ header #L-col-header {
 #L-col-upload-views {
   display: flex;
   margin-top: 20px;
+  justify-content: space-between;
   background-color: aqua;
 }
 
@@ -270,11 +272,50 @@ header #L-col-header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
 
   width: 225px;
   font-size: 18px;
 }
 /* video description */
-#video-description {
+#video-description-top {
+  background-color: blueviolet;
+}
+.divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+#channel-info {
+  width: fit-content;
+  background-color: orange;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#channel-info-right {
+  background-color: white;
+  margin-left: 20px;
+}
+#channel-info img {
+  border-radius: 50%;
+}
+#channel-info button {
+  margin-left: 100%;
+  transform: translate(-100%);
+}
+
+#video-description-bottom {
+  margin-left: 68px;
+  margin-top: 15px;
+  background-color: orangered;
+}
+
+#video-description-bottom a {
+  color: white;
+  font-weight: 800;
 }
