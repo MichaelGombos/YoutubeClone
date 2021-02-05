@@ -220,3 +220,61 @@ header #L-col-header {
 #R-col-header .fa-google-plus {
   font-size: 40px;
 }
+
+/* main Section */
+
+#main {
+  width: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: auto;
+  background-color: red;
+}
+
+/* Left column main */
+#L-col-main {
+  width: 1280px;
+  height: 100%;
+  background-color: blue;
+}
+
+/*video*/
+#video {
+}
+/* video info */
+#video-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: pink;
+}
+
+#L-col-video-info {
+  background-color: orange;
+}
+#L-col-video-info h1 {
+  font-size: 25px;
+  color: white;
+}
+#L-col-upload-views {
+  display: flex;
+  margin-top: 20px;
+  background-color: aqua;
+}
+
+#R-col-video-info {
+  background-color: blueviolet;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 225px;
+  font-size: 18px;
+}
+/* video description */
+#video-description {
+}
