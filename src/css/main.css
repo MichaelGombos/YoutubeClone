@@ -374,14 +374,19 @@ header #L-col-header {
   background-color: hotpink;
 }
 .comment {
+  margin-top: 30px;
+  display: flex;
   width: fit-content;
   height: fit-content;
   background-color: violet;
 }
 
 /*comment left column */
-#comment-L-column {
+.comment-L-col {
   background-color: salmon;
+  display: flex;
+  width: fit-content;
+  height: 100%;
 }
 .comment img {
   width: 48px;
@@ -390,11 +395,35 @@ header #L-col-header {
 }
 
 /*comment right column */
-#comment-R-column {
+.comment-R-col {
   background-color: lawngreen;
+  margin-left: 20px;
+}
+.comment-R-col .commentAuthor {
+  font-weight: 700;
+  margin-right: 10px;
 }
 .comment-header {
   display: flex;
   width: fit-content;
   background-color: green;
+}
+
+.comment-body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-footer {
+  display: flex;
+  flex-direction: row;
+  background-color: royalblue;
+}
+
+.comment-footer .rating {
+  margin-right: 10px;
+}
+
+.comment-footer a {
+  font-weight: 900;
 }
