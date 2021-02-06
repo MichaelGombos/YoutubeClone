@@ -86,6 +86,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -318,4 +323,78 @@ header #L-col-header {
 #video-description-bottom a {
   color: white;
   font-weight: 800;
+}
+
+/* comments */
+#comments {
+  background-color: aquamarine;
+  height: auto;
+  width: 100%;
+}
+/* comments-nav */
+#comments-header {
+  width: 200px;
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+}
+#comments-header p {
+  color: white;
+}
+#comments-header a {
+}
+
+/* comment-input */
+
+#comment-input {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  height: auto;
+  background-color: teal;
+  width: 100%;
+}
+#comment-input input {
+  width: 98%;
+  margin-left: 2%;
+  background-color: transparent;
+  border-bottom: 1px solid blue;
+}
+
+#comment-input img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+/* comment-articles */
+#comments-display {
+  width: 100%;
+  height: auto;
+  background-color: hotpink;
+}
+.comment {
+  width: fit-content;
+  height: fit-content;
+  background-color: violet;
+}
+
+/*comment left column */
+#comment-L-column {
+  background-color: salmon;
+}
+.comment img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+/*comment right column */
+#comment-R-column {
+  background-color: lawngreen;
+}
+.comment-header {
+  display: flex;
+  width: fit-content;
+  background-color: green;
 }
