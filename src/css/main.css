@@ -132,6 +132,17 @@ body {
   background-color: #181818;
 }
 
+h1,
+h2 {
+  color: white;
+}
+p {
+  color: #aaaaaa;
+}
+a {
+  text-decoration: none;
+  color: #909090;
+}
 input {
   padding: 0;
   border: 0;
@@ -235,14 +246,12 @@ header #L-col-header {
   margin-left: 100px;
   margin-right: 100px;
   height: auto;
-  background-color: red;
 }
 
 /* Left column main */
 #L-col-main {
   width: 1280px;
   height: 100%;
-  background-color: blue;
 }
 
 /*video*/
@@ -253,11 +262,9 @@ header #L-col-header {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  background-color: pink;
 }
 
 #L-col-video-info {
-  background-color: orange;
   width: 150px;
 }
 #L-col-video-info h1 {
@@ -265,15 +272,14 @@ header #L-col-header {
   color: white;
 }
 #L-col-upload-views {
+  color: #aaaaaa;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
-  background-color: aqua;
 }
 
 #R-col-video-info {
-  background-color: blueviolet;
-  color: white;
+  color: #909090;
 
   display: flex;
   flex-direction: row;
@@ -285,27 +291,29 @@ header #L-col-header {
 }
 /* video description */
 #video-description-top {
-  background-color: blueviolet;
 }
 .divider {
   margin-top: 15px;
   margin-bottom: 15px;
-
+  background-color: #303030;
   width: 100%;
-  height: 2px;
-  background-color: red;
+  height: 1px;
 }
 #channel-info {
   width: fit-content;
-  background-color: orange;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 #channel-info-right {
-  background-color: white;
   margin-left: 20px;
+}
+#channel-info-right h2 {
+  color: white;
+}
+#channel-info-right p {
+  color: #aaaaaa;
 }
 #channel-info img {
   border-radius: 50%;
@@ -318,24 +326,23 @@ header #L-col-header {
 #video-description-bottom {
   margin-left: 68px;
   margin-top: 15px;
-  background-color: orangered;
 }
-
-#video-description-bottom a {
+#video-description-bottom p {
   color: white;
+}
+#video-description-bottom a {
+  color: #aaaaaa;
   font-weight: 800;
 }
 
 /* comments */
 #comments {
-  background-color: aquamarine;
   height: auto;
   width: 100%;
 }
 /* comments-nav */
 #comments-header {
   width: 200px;
-  background-color: gold;
   display: flex;
   justify-content: space-between;
 }
@@ -352,14 +359,13 @@ header #L-col-header {
   align-items: center;
   justify-self: flex-end;
   height: auto;
-  background-color: teal;
   width: 100%;
 }
 #comment-input input {
   width: 98%;
   margin-left: 2%;
   background-color: transparent;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #303030;
 }
 
 #comment-input img {
@@ -372,19 +378,16 @@ header #L-col-header {
 #comments-display {
   width: 100%;
   height: auto;
-  background-color: hotpink;
 }
 .comment {
   margin-top: 30px;
   display: flex;
   width: fit-content;
   height: fit-content;
-  background-color: violet;
 }
 
 /*comment left column */
 .comment-L-col {
-  background-color: salmon;
   display: flex;
   width: fit-content;
   height: 100%;
@@ -397,7 +400,6 @@ header #L-col-header {
 
 /*comment right column */
 .comment-R-col {
-  background-color: lawngreen;
   margin-left: 20px;
 }
 .comment-R-col .commentAuthor {
@@ -407,7 +409,6 @@ header #L-col-header {
 .comment-header {
   display: flex;
   width: fit-content;
-  background-color: green;
 }
 
 .comment-body {
@@ -418,7 +419,6 @@ header #L-col-header {
 .comment-footer {
   display: flex;
   flex-direction: row;
-  background-color: royalblue;
 }
 
 .comment-footer .rating {
@@ -428,13 +428,15 @@ header #L-col-header {
 .comment-footer a {
   font-weight: 900;
 }
+.comment-footer .rating {
+  color: #909090;
+}
 
 /* Right column main */
 #R-col-main {
   margin-left: 24px;
   width: 100%;
   height: auto;
-  background-color: pink;
 }
 
 /* video article --------------- */
@@ -443,7 +445,6 @@ header #L-col-header {
   width: 405px;
   height: 100px;
   margin-bottom: 5px;
-  background-color: maroon;
 }
 
 /* video article left column */
@@ -452,7 +453,6 @@ header #L-col-header {
 .reccomended-video-L-col img {
   width: 168px;
   height: 94px;
-  background-color: maroon;
 }
 /* video article right column */
 .reccomended-video-R-col {
