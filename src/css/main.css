@@ -229,6 +229,7 @@ header #L-col-header {
 /* main Section */
 
 #main {
+  display: flex;
   width: auto;
   margin-top: 20px;
   margin-left: 100px;
@@ -426,4 +427,52 @@ header #L-col-header {
 
 .comment-footer a {
   font-weight: 900;
+}
+
+/* Right column main */
+#R-col-main {
+  margin-left: 24px;
+  width: 100%;
+  height: auto;
+  background-color: pink;
+}
+
+/* video article --------------- */
+.reccomended-video {
+  display: flex;
+  width: 405px;
+  height: 100px;
+  margin-bottom: 5px;
+  background-color: maroon;
+}
+
+/* video article left column */
+.reccomended-video-L-col {
+}
+.reccomended-video-L-col img {
+  width: 168px;
+  height: 94px;
+  background-color: maroon;
+}
+/* video article right column */
+.reccomended-video-R-col {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+/* video article header */
+.reccomended-video-R-col h2 {
+  font-weight: 800;
+}
+/*video article author */
+.reccomended-video-R-col .videoAuthor {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+/*video article footer */
+.reccomended-video-R-col .reccomended-video-footer {
+  display: flex;
+}
+.reccomended-video-R-col .reccomended-video-footer p {
+  margin-right: 4px;
 }
